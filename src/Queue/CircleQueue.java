@@ -56,8 +56,12 @@ public class CircleQueue {
             System.out.println("没有数据");
             return;
         }
-        for (int i = front; i < front + size(); ++i){
-            System.out.printf("arr[%d]:%d\n", i % (maxSize - 1), arr[i % (maxSize - 1)]);
+        for (int i = front; i <= front + size(); ++i){
+            if(i % maxSize == maxSize - 1){
+                System.out.printf("arr[%d]:判满位置不添加元素\n", i % maxSize);
+            }else{
+                System.out.printf("arr[%d]:%d\n", i % maxSize, arr[i % maxSize]);
+            }
         }
     }
 
