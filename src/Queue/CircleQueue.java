@@ -2,6 +2,13 @@ package Queue;
 
 import java.util.Scanner;
 
+/**
+ * 环形队列：
+ * front的定义：下一个取出的位置
+ * rear的定义：下一个存放的位置
+ * 1.初始位置 rear = 0, front = 0
+ * 2.判空条件: rear == front
+ */
 public class CircleQueue {
     private int rear;
     private int front;
@@ -20,9 +27,6 @@ public class CircleQueue {
     }
 
     public boolean isFull(){
-        // arr[3] 预留空间进行判满
-        // rear = 3
-        // front = 0
         return (rear + 1) % maxSize == front;
     }
 
@@ -43,6 +47,7 @@ public class CircleQueue {
             throw new RuntimeException("数据空了...不能再取数据了");
         }
         int value = arr[front];
+        arr[front] = 0;
         front = (front + 1) % maxSize;
         return value;
     }
@@ -57,11 +62,7 @@ public class CircleQueue {
             return;
         }
         for (int i = front; i <= front + size(); ++i){
-            if(i % maxSize == maxSize - 1){
-                System.out.printf("arr[%d]:判满位置不添加元素\n", i % maxSize);
-            }else{
-                System.out.printf("arr[%d]:%d\n", i % maxSize, arr[i % maxSize]);
-            }
+            System.out.printf("arr[%d]:%d\n", i % maxSize, arr[i % maxSize]);
         }
     }
 
