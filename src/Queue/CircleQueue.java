@@ -8,6 +8,7 @@ import java.util.Scanner;
  * rear的定义：下一个存放的位置
  * 1.初始位置 rear = 0, front = 0
  * 2.判空条件: rear == front
+ * 3.必须空出一个位置存放 0
  */
 public class CircleQueue {
     private int rear;

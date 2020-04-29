@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87437a33-3a92-45a6-b74f-159ae7c2deda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/List/SingleLinkedListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Queue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/Queue/CircleQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Queue/CircleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queue/CircleQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,20 +38,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.CircleQueue">
-    <configuration name="Array (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Node.Array" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Node.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SingleLinkedListDemo">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.ArrayQueue" />
       <module name="DataStructure" />
@@ -91,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.SingleLinkedListDemo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.Test" />
       <module name="DataStructure" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CircleQueue" />
+        <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.ArrayQueue" />
+        <item itemvalue="Application.CircleQueue" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MyArrayList" />
-        <item itemvalue="Application.Array (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,8 @@
       <workItem from="1579840645336" duration="9792000" />
       <workItem from="1579886343658" duration="7041000" />
       <workItem from="1579937546497" duration="1217000" />
-      <workItem from="1588035984296" duration="11650000" />
+      <workItem from="1588035984296" duration="13657000" />
+      <workItem from="1588120599037" duration="1024000" />
     </task>
     <servers />
   </component>
@@ -145,42 +146,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588036167469" />
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1579877867394">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1588121614415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579877867394" />
-    <state width="1493" height="470" key="GridCell.Tab.0.bottom" timestamp="1588068266561">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588121614415" />
+    <state width="1493" height="470" key="GridCell.Tab.0.bottom" timestamp="1588094160337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="470" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588068266561" />
-    <state width="1493" height="470" key="GridCell.Tab.0.center" timestamp="1588068266561">
+    <state width="1493" height="470" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588094160337" />
+    <state width="1493" height="470" key="GridCell.Tab.0.center" timestamp="1588094160337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="470" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588068266561" />
-    <state width="1493" height="470" key="GridCell.Tab.0.left" timestamp="1588068266561">
+    <state width="1493" height="470" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588094160337" />
+    <state width="1493" height="470" key="GridCell.Tab.0.left" timestamp="1588094160337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="470" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588068266561" />
-    <state width="1493" height="470" key="GridCell.Tab.0.right" timestamp="1588068266561">
+    <state width="1493" height="470" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588094160337" />
+    <state width="1493" height="470" key="GridCell.Tab.0.right" timestamp="1588094160337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="470" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588068266561" />
-    <state width="1493" height="328" key="GridCell.Tab.1.bottom" timestamp="1588066469506">
+    <state width="1493" height="470" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588094160337" />
+    <state width="1493" height="328" key="GridCell.Tab.1.bottom" timestamp="1588094160305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588066469506" />
-    <state width="1493" height="328" key="GridCell.Tab.1.center" timestamp="1588066469506">
+    <state width="1493" height="328" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588094160305" />
+    <state width="1493" height="328" key="GridCell.Tab.1.center" timestamp="1588094160305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588066469506" />
-    <state width="1493" height="328" key="GridCell.Tab.1.left" timestamp="1588066469506">
+    <state width="1493" height="328" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588094160305" />
+    <state width="1493" height="328" key="GridCell.Tab.1.left" timestamp="1588094160305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588066469506" />
-    <state width="1493" height="328" key="GridCell.Tab.1.right" timestamp="1588066469506">
+    <state width="1493" height="328" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588094160305" />
+    <state width="1493" height="328" key="GridCell.Tab.1.right" timestamp="1588094160305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588066469506" />
+    <state width="1493" height="328" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588094160305" />
     <state x="349" y="147" key="IDE.errors.dialog" timestamp="1588067838710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
