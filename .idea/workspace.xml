@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87437a33-3a92-45a6-b74f-159ae7c2deda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lambda/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/StringHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stream/TestStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/List/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/SingleLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/List/SingleLinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/List/SingleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/List/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/SingleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/SingleLinkedListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/SingleList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/SingleLinkedListDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListDemo">
+  <component name="RunManager" selected="Application.TestStream">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.ArrayQueue" />
       <module name="DataStructure" />
@@ -54,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.CircleQueue" />
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda.LambdaTest" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Node.MyArrayList" />
+    <configuration name="MyLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.MyLinkList" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Node.*" />
+          <option name="PATTERN" value="List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,20 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.TestStream" />
       <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStream" />
+        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.MyLinkList" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.ArrayQueue" />
-        <item itemvalue="Application.CircleQueue" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MyArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +133,9 @@
       </list>
     </option>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,7 +150,12 @@
       <workItem from="1579886343658" duration="7041000" />
       <workItem from="1579937546497" duration="1217000" />
       <workItem from="1588035984296" duration="13657000" />
-      <workItem from="1588120599037" duration="2971000" />
+      <workItem from="1588120599037" duration="7064000" />
+      <workItem from="1590294842660" duration="4945000" />
+      <workItem from="1590406966843" duration="5627000" />
+      <workItem from="1590480717902" duration="45000" />
+      <workItem from="1590580779866" duration="13000" />
+      <workItem from="1590679621744" duration="1495000" />
     </task>
     <servers />
   </component>
@@ -152,45 +171,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588121614415" />
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1588123967193">
+    <state x="548" y="297" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590415186694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588123967193" />
-    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1588123967193">
+    <state x="548" y="297" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590415186694" />
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1590417192762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588123967193" />
-    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1588123967193">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590417192762" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1590417192762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588123967193" />
-    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1588123967193">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590417192762" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1590417192762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588123967193" />
-    <state width="1493" height="328" key="GridCell.Tab.1.bottom" timestamp="1588123851228">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590417192762" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1590417192762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588123851228" />
-    <state width="1493" height="328" key="GridCell.Tab.1.center" timestamp="1588123851228">
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590417192762" />
+    <state width="1493" height="328" key="GridCell.Tab.1.bottom" timestamp="1588173599253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588123851228" />
-    <state width="1493" height="328" key="GridCell.Tab.1.left" timestamp="1588123851228">
+    <state width="1493" height="328" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588173599253" />
+    <state width="1493" height="328" key="GridCell.Tab.1.center" timestamp="1588173599253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588123851228" />
-    <state width="1493" height="328" key="GridCell.Tab.1.right" timestamp="1588123851228">
+    <state width="1493" height="328" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588173599253" />
+    <state width="1493" height="328" key="GridCell.Tab.1.left" timestamp="1588173599253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="328" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588123851228" />
+    <state width="1493" height="328" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588173599253" />
+    <state width="1493" height="328" key="GridCell.Tab.1.right" timestamp="1588173599253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="328" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588173599253" />
     <state x="349" y="147" key="IDE.errors.dialog" timestamp="1588067838710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1588067838710" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588123902666">
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590323123461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588123902666" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1590323123461" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590680475465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590680475465" />
   </component>
 </project>
