@@ -25,5 +25,7 @@ public class Test {
 
         // 7 3 10 8 13
         binanryTree.preOrder();
+        Node node = binanryTree.getRoot().preOrderSearch(8);
+        System.out.println(node);
     }
 }

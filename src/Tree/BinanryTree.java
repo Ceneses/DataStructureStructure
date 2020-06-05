@@ -89,4 +89,21 @@ class Node {
             this.right.preOrder();
         }
     }
+
+    public Node preOrderSearch(int no){
+        Node res = null;
+        if(this.no == no){
+            return this;
+        }
+        if(this.left != null){
+            res = this.left.preOrderSearch(no);
+        }
+        if(res != null){
+            return res;
+        }
+        if(this.right != null){
+            res = this.right.preOrderSearch(no);
+        }
+        return res;
+    }
 }
