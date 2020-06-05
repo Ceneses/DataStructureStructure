@@ -2,7 +2,7 @@ package Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -34,5 +34,20 @@ public class TestStream {
 
         // 生成
         Stream.generate(() -> Math.random()).limit(5).forEach(System.out::println);
+
+        List<Person> personList = Arrays.asList(
+                new Person("韩",10),
+                new Person("承",12),
+                new Person("毅",13),
+                new Person("毅",14),
+                new Person("毅",15),
+                new Person("毅",16),
+                new Person("毅",17));
+
+        personList.stream().filter((x) -> {
+            return x.getAge() > 11;
+        }).limit(5).forEach(System.out::println);
+
+
     }
 }
